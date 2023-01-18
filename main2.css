@@ -1,0 +1,70 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(55, 51, 68);
+    color: aliceblue;
+}
+
+h1, h2, h3 {
+    
+    font-family: 'Readex Pro', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    
+}
+
+address{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.rojo {
+    color: rgb(255, 94, 94);
+}
+
+.azul {
+    color: rgb(176, 201, 255);
+}
+
+.icono{
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+.contenedor {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+}
+
+ion-icon {
+    pointer-events: none;
+}
+.cursiva{
+    font-style: italic;
+}
+
+.pie{
+    font-size: .8rem;
+}
+
+.light{
+    font-weight: lighter;
+
+}
+.margen{
+    margin-top: 4rem;
+}
+
+

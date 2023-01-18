@@ -1,70 +1,26 @@
-body{
-    margin: 0 auto;
-    background-color: rgb(55, 51, 68);
-    color: aliceblue;
+:root {
+    --basalto: #6b7275;
+    --piedra:#ccc5bd;
+    --piedra--claro:#dfdfdf;
+    --rojo:#bb2730;
+    --naranja:#fe7b30;
+    --amarillo:#fdbd48;
+    --menta:#a1bc97;
+    --salvia:#67786e;
+    --verde:#40a84f;
+    --verdeOscuro:#025f4f;
+    --azulClaro:#a7c2d5;
+    --azul:#0492cb;
+    --azul-oscuro: #113e83;
+    --morado:#915b9e;
+    --uva:#704c6c;
+    --rosaClaro:#ecccdb;
+    --coral:#fe887e;
+    --rosaFondant:#dea1c2;
+    --teja:#ad5050;
+    --arcilla:#cb927c;
+    --marron:#a54b2b;
+    --pergamino:#c39a67;
+    --arena:#9c794d;
+    --beige:#f5cc82;
 }
-
-h1, h2, h3 {
-    
-    font-family: 'Readex Pro', sans-serif;
-    text-align: center;
-}
-
-p{
-    font-family: 'Libre Baskerville', serif;
-    text-align: center;
-    
-}
-
-address{
-    width: 50%;
-    display: inline-flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.rojo {
-    color: rgb(255, 94, 94);
-}
-
-.azul {
-    color: rgb(176, 201, 255);
-}
-
-.icono{
-    font-size: 1.2rem;
-    margin: 2rem;
-}
-
-.contenedor {
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    
-
-}
-
-ion-icon {
-    pointer-events: none;
-}
-.cursiva{
-    font-style: italic;
-}
-
-.pie{
-    font-size: .8rem;
-}
-
-.light{
-    font-weight: lighter;
-
-}
-.margen{
-    margin-top: 4rem;
-}
-
-
